@@ -3,7 +3,7 @@
 CAS provides a http package compatible client implementation for use with
 securing http frontends in golang.
 
-    import "gopkg.in/cas.v2"
+    import "github.com/IguoChan/cas"
     
 ## Unmaintained
 
@@ -13,6 +13,6 @@ Apologies for this project having become so stagnant.
 
 ## Examples and Documentation
 
-Documentation is available at: http://godoc.org/gopkg.in/cas.v2
+Documentation is available at: http://godoc.org/github.com/IguoChan/cas
 Examples are included in the documentation but are also available in the
 `_examples` directory.

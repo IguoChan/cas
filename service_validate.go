@@ -93,7 +93,7 @@ func (validator *ServiceTicketValidator) ValidateTicket(serviceURL *url.URL, tic
 // ServiceValidateUrl creates the service validation url for the cas >= 2 protocol.
 // TODO the function is only exposed, because of the clients ServiceValidateUrl function
 func (validator *ServiceTicketValidator) ServiceValidateUrl(serviceURL *url.URL, ticket string) (string, error) {
-	u, err := validator.casURL.Parse(path.Join(validator.casURL.Path, "serviceValidate"))
+	u, err := validator.casURL.Parse(path.Join(validator.casURL.Path, "p3/serviceValidate"))
 	if err != nil {
 		return "", err
 	}
